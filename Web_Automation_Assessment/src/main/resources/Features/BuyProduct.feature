@@ -1,4 +1,4 @@
-@test
+@Smoke
 Feature: Purchase Products
   As a user
   I want to purchase two products successfully
