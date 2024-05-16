@@ -2,8 +2,8 @@ package pages;
 
 import coreElements.*;
 
-import static Locators.L02_Login.*;
-public class P02_Login {
+import static Locators.L02_BuyProduct.*;
+public class P02_BuyProduct {
     public static Link Login = new Link(loginLink);
     public static FormField UserNameLogin = new FormField(UserNameField);
     public static FormField PasswordLogin = new FormField(PasswordField);
@@ -14,12 +14,15 @@ public class P02_Login {
     public static Link ClickOnSonyVaioi5 = new Link(SonyVaioi5);
     public static Button AddItemToCart = new Button(AddToCart);
     public static Alerts ProductAddedAlert = new Alerts();
+    public static Alerts ConfirmFormAlret = new Alerts();
     public static Link ClickOnHomePage = new Link(HomeButton);
 
     public static Link ClickOnSonyVaioi7 = new Link(SonyVaioi7);
     public static Link ClickOnCartHeader = new Link(CartHeader);
     public static Text SonyVaioi5Price = new Text(Price1);
     public static Text SonyVaioi7Price = new Text(Price2);
+    public static Text SonyVaioi5CartCheck = new Text(SonyVaioi5Cart);
+    public static Text SonyVaioi7CartCheck = new Text(SonyVaioi7Cart);
     public static Text TotalCartPrice = new Text(TotalPrice);
     public static Button ClickOnPlaceOrder = new Button(PlaceOrderButton);
     public static Text PlaceOrdertotalprice = new Text(PlaceOrderTotalPrice);

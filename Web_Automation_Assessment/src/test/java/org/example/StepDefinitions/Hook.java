@@ -15,20 +15,13 @@ public class Hook {
     @Before
 
     public static void OpenBrowser(){
-        // Create new driver object
-       /* driver = new SHAFT.GUI.WebDriver();
-         // Extract user information
-        */
         userInfo = new SHAFT.TestData.JSON("src/test/resources/DynamicData.json");
-        // Create a form object to be used to fill out form fields
         DriverManager.startDriverSession();
 
     }
     @After
 
     public static void CloseBrowser(){
-       // Quit the WebDriver instance
-     //   driver.quit();
         DriverManager.EndDriverSession();
         SHAFT.Properties.reporting.openAllureReportAfterExecution();
 

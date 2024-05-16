@@ -2,7 +2,7 @@ package Locators;
 
 import org.openqa.selenium.By;
 
-public class L02_Login {
+public class L02_BuyProduct {
     /**
      * Links
      * **/
@@ -38,8 +38,8 @@ public class L02_Login {
      * **/
     public static By Price1 = By.xpath("(//td[text()='790'])[1]");
     public static By Price2 = By.xpath("(//td[text()='790'])[2]");
-    public static By SonyVaioCart = By.xpath("//td[contains(text(),'Sony vaio i5')]");
-    public static By SonyVaioCart2 = By.xpath("//td[contains(text(),'Sony vaio i7')]");
+    public static By SonyVaioi5Cart = By.xpath("//td[contains(text(),'Sony vaio i5')]");
+    public static By SonyVaioi7Cart = By.xpath("//td[contains(text(),'Sony vaio i7')]");
     public static By TotalPrice = By.id("totalp");
     public static By PlaceOrderTotalPrice = By.id("totalm");
 

@@ -3,10 +3,10 @@ package Locators;
 import org.openqa.selenium.By;
 
 public class L01_Register {
+
     /**
      * Fields
      * **/
-
     public static By usernameField = By.id("sign-username");
 
     public static By passwordField = By.id("sign-password");
@@ -20,8 +20,8 @@ public class L01_Register {
      * Links
      * **/
     public static By SignUpLink =By.id("signin2");
-
     public static By logoutLink = By.id("logout2");
+
     /**
      * Messages
      * **/

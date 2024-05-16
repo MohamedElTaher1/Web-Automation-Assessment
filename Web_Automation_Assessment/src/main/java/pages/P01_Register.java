@@ -1,9 +1,5 @@
 package pages;
-
-import Locators.L01_Register;
 import coreElements.*;
-import org.openqa.selenium.Alert;
-
 import static Locators.L01_Register.*;
 
 public class P01_Register {
@@ -14,4 +10,6 @@ public class P01_Register {
     public static FormField Password = new FormField(passwordField);
     public static Button Confirm = new Button(signUpButton);
     public static Alerts SignUpAlert = new Alerts();
+    public static Alerts CheckInvalidUserName = new Alerts();
+    public static Alerts CheckInvalidPassword = new Alerts();
 }

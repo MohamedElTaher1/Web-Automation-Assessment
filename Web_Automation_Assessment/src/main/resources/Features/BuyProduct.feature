@@ -5,9 +5,8 @@ Feature: Purchase Products
   So that I can complete a successful purchase transaction
 
   Scenario: Verify that two products are purchased successfully
-    Given I am on the homepage
-    When I click on Login button in Header
-    And I fill in username  and password  in Login Form
+    Given I click on Login button in Header
+    When I fill in username  and password  in Login Form
     And I validate that account is opened Successfully
     And I click on Laptops in categories on home page
     And I choose product one
@@ -24,3 +23,20 @@ Feature: Purchase Products
     And I fill in  place order form
     And I click on Purchase button in place order Form
     Then I validate that 'Thank you for your purchase!' is displayed
+
+    Scenario: Verify That an Alert message Please fill out Name and Creditcard should appear
+      Given I click on Login button in Header
+      When I fill in username  and password  in Login Form
+      And I validate that account is opened Successfully
+      And I click on Laptops in categories on home page
+      And I choose product one
+      And I click on Add to cart button for product one
+      And I validate that product one is successfully added to cart
+      And I click on Cart button in header
+      And I click on Place order button
+      And I fill in  place order without UserName and CreditCard form
+      And I click on Purchase button in place order Form
+      Then I validate that 'Please fill out Name and Creditcard.' Alert is displayed
+
+
+
