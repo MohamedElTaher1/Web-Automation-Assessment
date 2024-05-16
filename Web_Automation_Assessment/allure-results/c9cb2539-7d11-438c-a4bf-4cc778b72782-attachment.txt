@@ -1,6 +1,0 @@
-[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Execution log' @15-05-2024 18:01:08.0744 PM
-[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Execution log: 20240515-180108' @15-05-2024 18:01:08.0745 PM
-[ReportManager] Successfully created attachment 'HTML - Cucumber Execution Report' @15-05-2024 18:01:08.0761 PM
-[ReportManager] Successfully created attachment 'HTML - Checkpoints Report' @15-05-2024 18:01:08.0764 PM
-[ReportManager] Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details. @15-05-2024 18:01:08.0771 PM
-[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Issues log CSV: 20240515-180108' @15-05-2024 18:01:08.0773 PM

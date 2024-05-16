@@ -1,0 +1,529 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Starting Execution: "4 out of 5" scenarios in the "Purchase Products" feature                                  
+                                      Scenario Name: "Verify that two products are purchased successfully"                                      
+                                                                 Scenario Steps:                                                                 
+                                                     Given I click on Login button in Header                                                     
+                                              When I fill in username  and password  in Login Form                                              
+                                               And I validate that account is opened Successfully                                               
+                                                And I click on Laptops in categories on home page                                                
+                                                            And I choose product one                                                            
+                                                And I click on Add to cart button for product one                                                
+                                          And I validate that product one is successfully added to cart                                          
+                                                            And I choose product two                                                            
+                                                And I click on Add to cart button for product two                                                
+                                          And I validate that product two is successfully added to cart                                          
+                                                      And I click on Cart button in header                                                      
+                                   Then I validate that both products are successfully added in products page                                   
+                                          And I validate that the total amount is calculated correctly                                          
+                                                        And I click on Place order button                                                        
+                                And I validate that the total amount is calculated correctly in place order page                                
+                                                         And I fill in  place order form                                                         
+                                               And I click on Purchase button in place order Form                                               
+                                        Then I validate that 'Thank you for your purchase!' is displayed                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Scenario Hook: BEFORE @16-05-2024 15:53:40.0015 PM
+[ReportManager] Loaded Test Data: "src/test/resources/DynamicData.json". @16-05-2024 15:53:40.0016 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @16-05-2024 15:53:40.0017 PM
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @16-05-2024 15:53:40.0018 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: [], prefs: {download.default_directory: D:\JDK\project\Web-Automati..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @16-05-2024 15:53:40.0020 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @16-05-2024 15:53:40.0020 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @16-05-2024 15:53:40.0020 PM
+[ReportManager] Successfully Opened: "Windows | Chrome". @16-05-2024 15:53:41.0789 PM
+[ReportManager] Target URL: "https://www.demoblaze.com/index.html" @16-05-2024 15:53:41.0790 PM
+[ReportManager] Initial URL: "about:blank" @16-05-2024 15:53:41.0839 PM
+[ReportManager] Navigate to url "https://www.demoblaze.com/index.html". @16-05-2024 15:53:42.0805 PM
+[ReportManager] Expected "STORE", and actual "STORE" @16-05-2024 15:53:42.0841 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_15-53-43-409_16052024' @16-05-2024 15:53:43.0412 PM
+[ReportManager] Verification passed @16-05-2024 15:53:43.0412 PM
+[ReportManager] Scenario Step: Given I click on Login button in Header @16-05-2024 15:53:43.0415 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:43.0594 PM
+[ReportManager] Click "Log in". @16-05-2024 15:53:43.0646 PM
+[ReportManager] Scenario Step: When I fill in username  and password  in Login Form @16-05-2024 15:53:43.0648 PM
+[ReportManager] Text cleared Using Native Clear @16-05-2024 15:53:43.0901 PM
+[ReportManager] Type "Brooks Prosacco" into "By.id: loginusername". @16-05-2024 15:53:43.0945 PM
+[ReportManager] Text cleared Using Native Clear @16-05-2024 15:53:44.0030 PM
+[ReportManager] Type "ropiz15zmpp" into "By.id: loginpassword". @16-05-2024 15:53:44.0065 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:44.0229 PM
+[ReportManager] Click "Log in". @16-05-2024 15:53:44.0257 PM
+[ReportManager] Scenario Step: And I validate that account is opened Successfully @16-05-2024 15:53:44.0258 PM
+[ReportManager] Expected "true", and actual "true" @16-05-2024 15:53:44.0307 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-53-45-690_16052024' @16-05-2024 15:53:45.0696 PM
+[ReportManager] Assertion passed @16-05-2024 15:53:45.0697 PM
+[ReportManager] Scenario Step: And I click on Laptops in categories on home page @16-05-2024 15:53:45.0698 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:45.0858 PM
+[ReportManager] Click "Laptops". @16-05-2024 15:53:45.0896 PM
+[ReportManager] Scenario Step: And I choose product one @16-05-2024 15:53:45.0901 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:46.0074 PM
+[ReportManager] Click "Sony vaio i5". @16-05-2024 15:53:46.0607 PM
+[ReportManager] Scenario Step: And I click on Add to cart button for product one @16-05-2024 15:53:46.0608 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:47.0179 PM
+[ReportManager] Click "Add to cart". @16-05-2024 15:53:47.0219 PM
+[ReportManager] Scenario Step: And I validate that product one is successfully added to cart @16-05-2024 15:53:47.0220 PM
+[ReportManager] Alert action failed. @16-05-2024 15:53:47.0265 PM
+[ReportManager] java.lang.reflect.InvocationTargetException: null
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+ org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+ net.bytebuddy.renamed.java.lang.Object$ByteBuddy$pejHdLiD.alert(Unknown Source)
+ coreElements.Alerts.lambda$AcceptAlert$0(Alerts.java:28)
+ org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+ coreElements.Alerts.AcceptAlert(Alerts.java:26)
+ org.example.StepDefinitions.BuyProduct.ValidateAddToCart(BuyProduct.java:50)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+ io.cucumber.java.Invoker.invoke(Invoker.java:24)
+ io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+ io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+ io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+ io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+ io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+ io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+ io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+ io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+ io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+ io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+ io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+ io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+ io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+ io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+ io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+ io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ org.testng.TestRunner.privateRun(TestRunner.java:739)
+ org.testng.TestRunner.run(TestRunner.java:614)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+ org.testng.SuiteRunner.run(SuiteRunner.java:312)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+ org.testng.TestNG.runSuites(TestNG.java:1112)
+ org.testng.TestNG.run(TestNG.java:1079)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+Caused by: org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=124.0.6367.203)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd473a7300a99e1276033a3c1cab1449, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.203, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\MED5B~1.TAH\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57427/devtoo..., se:cdpVersion: 124.0.6367.203, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:14110/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd473a7300a99e1276033a3c1cab1449
+ java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+ java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+ java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+ org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+ org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1163)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+ org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+ net.bytebuddy.renamed.java.lang.Object$ByteBuddy$pejHdLiD.alert(Unknown Source)
+ coreElements.Alerts.lambda$AcceptAlert$0(Alerts.java:28)
+ org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+ coreElements.Alerts.AcceptAlert(Alerts.java:26)
+ org.example.StepDefinitions.BuyProduct.ValidateAddToCart(BuyProduct.java:50)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+ io.cucumber.java.Invoker.invoke(Invoker.java:24)
+ io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+ io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+ io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+ io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+ io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+ io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+ io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+ io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+ io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+ io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+ io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+ io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+ io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+ io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+ io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+ io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ org.testng.TestRunner.privateRun(TestRunner.java:739)
+ org.testng.TestRunner.run(TestRunner.java:614)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+ org.testng.SuiteRunner.run(SuiteRunner.java:312)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+ org.testng.TestNG.runSuites(TestNG.java:1112)
+ org.testng.TestNG.run(TestNG.java:1079)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) @16-05-2024 15:53:47.0267 PM
+[ReportManager] Alert action failed. @16-05-2024 15:53:47.0604 PM
+[ReportManager] java.lang.reflect.InvocationTargetException: null
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+ org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+ net.bytebuddy.renamed.java.lang.Object$ByteBuddy$oBBodvH5.alert(Unknown Source)
+ coreElements.Alerts.lambda$AcceptAlert$0(Alerts.java:28)
+ org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+ coreElements.Alerts.AcceptAlert(Alerts.java:26)
+ org.example.StepDefinitions.BuyProduct.ValidateAddToCart(BuyProduct.java:50)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+ io.cucumber.java.Invoker.invoke(Invoker.java:24)
+ io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+ io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+ io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+ io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+ io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+ io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+ io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+ io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+ io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+ io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+ io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+ io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+ io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+ io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+ io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+ io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ org.testng.TestRunner.privateRun(TestRunner.java:739)
+ org.testng.TestRunner.run(TestRunner.java:614)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+ org.testng.SuiteRunner.run(SuiteRunner.java:312)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+ org.testng.TestNG.runSuites(TestNG.java:1112)
+ org.testng.TestNG.run(TestNG.java:1079)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+Caused by: org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=124.0.6367.203)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd473a7300a99e1276033a3c1cab1449, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.203, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\MED5B~1.TAH\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57427/devtoo..., se:cdpVersion: 124.0.6367.203, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:14110/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd473a7300a99e1276033a3c1cab1449
+ java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+ java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+ java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+ org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+ org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1163)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+ org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+ net.bytebuddy.renamed.java.lang.Object$ByteBuddy$oBBodvH5.alert(Unknown Source)
+ coreElements.Alerts.lambda$AcceptAlert$0(Alerts.java:28)
+ org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+ coreElements.Alerts.AcceptAlert(Alerts.java:26)
+ org.example.StepDefinitions.BuyProduct.ValidateAddToCart(BuyProduct.java:50)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+ io.cucumber.java.Invoker.invoke(Invoker.java:24)
+ io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+ io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+ io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+ io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+ io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+ io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+ io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+ io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+ io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+ io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+ io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+ io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+ io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+ io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+ io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+ io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ org.testng.TestRunner.privateRun(TestRunner.java:739)
+ org.testng.TestRunner.run(TestRunner.java:614)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+ org.testng.SuiteRunner.run(SuiteRunner.java:312)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+ org.testng.TestNG.runSuites(TestNG.java:1112)
+ org.testng.TestNG.run(TestNG.java:1079)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) @16-05-2024 15:53:47.0604 PM
+[ReportManager] Scenario Step: And I choose product two @16-05-2024 15:53:47.0977 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:48.0131 PM
+[ReportManager] Click "Home (current)". @16-05-2024 15:53:48.0417 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:48.0624 PM
+[ReportManager] Click "Laptops". @16-05-2024 15:53:48.0670 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:48.0865 PM
+[ReportManager] Click "Sony vaio i7". @16-05-2024 15:53:49.0141 PM
+[ReportManager] Scenario Step: And I click on Add to cart button for product two @16-05-2024 15:53:49.0144 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:49.0756 PM
+[ReportManager] Click "Add to cart". @16-05-2024 15:53:49.0799 PM
+[ReportManager] Scenario Step: And I validate that product two is successfully added to cart @16-05-2024 15:53:49.0800 PM
+[ReportManager] Alert action failed. @16-05-2024 15:53:49.0854 PM
+[ReportManager] java.lang.reflect.InvocationTargetException: null
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+ org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+ net.bytebuddy.renamed.java.lang.Object$ByteBuddy$1dsz1b0Z.alert(Unknown Source)
+ coreElements.Alerts.lambda$AcceptAlert$0(Alerts.java:28)
+ org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+ coreElements.Alerts.AcceptAlert(Alerts.java:26)
+ org.example.StepDefinitions.BuyProduct.ValidateAddToCart2(BuyProduct.java:64)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+ io.cucumber.java.Invoker.invoke(Invoker.java:24)
+ io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+ io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+ io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+ io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+ io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+ io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+ io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+ io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+ io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+ io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+ io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+ io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+ io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+ io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+ io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+ io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ org.testng.TestRunner.privateRun(TestRunner.java:739)
+ org.testng.TestRunner.run(TestRunner.java:614)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+ org.testng.SuiteRunner.run(SuiteRunner.java:312)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+ org.testng.TestNG.runSuites(TestNG.java:1112)
+ org.testng.TestNG.run(TestNG.java:1079)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+Caused by: org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=124.0.6367.203)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd473a7300a99e1276033a3c1cab1449, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.203, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\MED5B~1.TAH\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57427/devtoo..., se:cdpVersion: 124.0.6367.203, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:14110/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd473a7300a99e1276033a3c1cab1449
+ java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+ java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+ java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+ org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+ org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1163)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+ org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+ net.bytebuddy.renamed.java.lang.Object$ByteBuddy$1dsz1b0Z.alert(Unknown Source)
+ coreElements.Alerts.lambda$AcceptAlert$0(Alerts.java:28)
+ org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+ coreElements.Alerts.AcceptAlert(Alerts.java:26)
+ org.example.StepDefinitions.BuyProduct.ValidateAddToCart2(BuyProduct.java:64)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+ io.cucumber.java.Invoker.invoke(Invoker.java:24)
+ io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+ io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+ io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+ io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+ io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+ io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+ io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+ io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+ io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+ io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+ io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+ io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+ io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+ io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+ io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+ io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ org.testng.TestRunner.privateRun(TestRunner.java:739)
+ org.testng.TestRunner.run(TestRunner.java:614)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+ org.testng.SuiteRunner.run(SuiteRunner.java:312)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+ org.testng.TestNG.runSuites(TestNG.java:1112)
+ org.testng.TestNG.run(TestNG.java:1079)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) @16-05-2024 15:53:49.0855 PM
+[ReportManager] Scenario Step: And I click on Cart button in header @16-05-2024 15:53:50.0219 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:50.0388 PM
+[ReportManager] Click "Cart". @16-05-2024 15:53:50.0815 PM
+[ReportManager] Scenario Step: Then I validate that both products are successfully added in products page @16-05-2024 15:53:50.0817 PM
+[ReportManager] Expected "true", and actual "true" @16-05-2024 15:53:51.0474 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-53-51-886_16052024' @16-05-2024 15:53:51.0889 PM
+[ReportManager] Assertion passed @16-05-2024 15:53:51.0889 PM
+[ReportManager] Expected "true", and actual "true" @16-05-2024 15:53:51.0924 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-53-52-278_16052024' @16-05-2024 15:53:52.0281 PM
+[ReportManager] Assertion passed @16-05-2024 15:53:52.0281 PM
+[ReportManager] Expected "true", and actual "true" @16-05-2024 15:53:52.0315 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-53-52-679_16052024' @16-05-2024 15:53:52.0681 PM
+[ReportManager] Assertion passed @16-05-2024 15:53:52.0681 PM
+[ReportManager] Expected "true", and actual "true" @16-05-2024 15:53:52.0717 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-53-53-164_16052024' @16-05-2024 15:53:53.0166 PM
+[ReportManager] Assertion passed @16-05-2024 15:53:53.0166 PM
+[ReportManager] Scenario Step: And I validate that the total amount is calculated correctly @16-05-2024 15:53:53.0167 PM
+[ReportManager] Get text "790" from "790". @16-05-2024 15:53:53.0204 PM
+[ReportManager] Get text "790" from "790". @16-05-2024 15:53:53.0237 PM
+[ReportManager] Expected "1580", and actual "1580" @16-05-2024 15:53:53.0305 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-53-53-693_16052024' @16-05-2024 15:53:53.0695 PM
+[ReportManager] Assertion passed @16-05-2024 15:53:53.0696 PM
+[ReportManager] Scenario Step: And I click on Place order button @16-05-2024 15:53:53.0696 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:53.0851 PM
+[ReportManager] Click "Place Order". @16-05-2024 15:53:53.0878 PM
+[ReportManager] Scenario Step: And I validate that the total amount is calculated correctly in place order page @16-05-2024 15:53:53.0879 PM
+[ReportManager] Expected "1580", and actual "Total: 1580" @16-05-2024 15:53:53.0988 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-53-54-331_16052024' @16-05-2024 15:53:54.0334 PM
+[ReportManager] Assertion passed @16-05-2024 15:53:54.0335 PM
+[ReportManager] Scenario Step: And I fill in  place order form @16-05-2024 15:53:54.0337 PM
+[ReportManager] Text cleared Using Native Clear @16-05-2024 15:53:54.0442 PM
+[ReportManager] Type "Mohamed" into "Total: 1580 Name:". @16-05-2024 15:53:54.0480 PM
+[ReportManager] Text cleared Using Native Clear @16-05-2024 15:53:54.0604 PM
+[ReportManager] Type "Egypt" into "Country:". @16-05-2024 15:53:54.0637 PM
+[ReportManager] Text cleared Using Native Clear @16-05-2024 15:53:54.0735 PM
+[ReportManager] Type "Cairo" into "City:". @16-05-2024 15:53:54.0770 PM
+[ReportManager] Text cleared Using Native Clear @16-05-2024 15:53:54.0863 PM
+[ReportManager] Type "4263090408056914" into "Credit card:". @16-05-2024 15:53:54.0921 PM
+[ReportManager] Text cleared Using Native Clear @16-05-2024 15:53:55.0019 PM
+[ReportManager] Type "5" into "Month:". @16-05-2024 15:53:55.0046 PM
+[ReportManager] Text cleared Using Native Clear @16-05-2024 15:53:55.0156 PM
+[ReportManager] Type "2024" into "Year:". @16-05-2024 15:53:55.0189 PM
+[ReportManager] Scenario Step: And I click on Purchase button in place order Form @16-05-2024 15:53:55.0190 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:55.0358 PM
+[ReportManager] Click "Purchase". @16-05-2024 15:53:55.0430 PM
+[ReportManager] Scenario Step: Then I validate that 'Thank you for your purchase!' is displayed @16-05-2024 15:53:55.0431 PM
+[ReportManager] Expected "Thank you for your purchase!", and actual "Thank you for your purchase!" @16-05-2024 15:53:55.0519 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-53-55-855_16052024' @16-05-2024 15:53:55.0856 PM
+[ReportManager] Assertion passed @16-05-2024 15:53:55.0856 PM
+[ReportManager] Moved the mouse to the middle of the element. @16-05-2024 15:53:56.0013 PM
+[ReportManager] Click "OK". @16-05-2024 15:53:56.0819 PM
+[ReportManager] Scenario Hook: AFTER @16-05-2024 15:53:56.0820 PM
+[ReportManager] Successfully Closed Driver. @16-05-2024 15:53:57.0459 PM
