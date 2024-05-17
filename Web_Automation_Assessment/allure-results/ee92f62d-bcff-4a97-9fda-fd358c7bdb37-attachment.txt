@@ -1,0 +1,39 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                     Starting Execution: "1 out of 5" scenarios in the "User Signup" feature                                     
+                                           Scenario Name: "Verify that user can sign up successfully"                                           
+                                                                 Scenario Steps:                                                                 
+                                                Given I click on the Sign up button in the Header                                                
+                                          When I fill in the username and password in the sign up form                                          
+                                                          And I submit the sign up form                                                          
+                                               Then I should see the message "Sign up successful."                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Scenario Hook: BEFORE @17-05-2024 15:31:24.0831 PM
+[ReportManager] Loaded Test Data: "src/test/resources/DynamicData.json". @17-05-2024 15:31:24.0839 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @17-05-2024 15:31:24.0842 PM
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @17-05-2024 15:31:24.0867 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: [], prefs: {download.default_directory: D:\JDK\project\Web-Automati..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @17-05-2024 15:31:24.0881 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @17-05-2024 15:31:24.0883 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @17-05-2024 15:31:24.0883 PM
+[ReportManager] Successfully Opened: "Windows | Chrome". @17-05-2024 15:31:28.0602 PM
+[ReportManager] Target URL: "https://www.demoblaze.com/index.html" @17-05-2024 15:31:28.0636 PM
+[ReportManager] Initial URL: "about:blank" @17-05-2024 15:31:28.0684 PM
+[ReportManager] Navigate to url "https://www.demoblaze.com/index.html". @17-05-2024 15:31:29.0817 PM
+[ReportManager] Expected "STORE", and actual "STORE" @17-05-2024 15:31:29.0914 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_15-31-31-255_17052024' @17-05-2024 15:31:31.0258 PM
+[ReportManager] Verification passed @17-05-2024 15:31:31.0258 PM
+[ReportManager] Scenario Step: Given I click on the Sign up button in the Header @17-05-2024 15:31:31.0401 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-05-2024 15:31:31.0654 PM
+[ReportManager] Click "Sign up". @17-05-2024 15:31:31.0701 PM
+[ReportManager] Scenario Step: When I fill in the username and password in the sign up form @17-05-2024 15:31:31.0705 PM
+[ReportManager] Text cleared Using Native Clear @17-05-2024 15:31:32.0476 PM
+[ReportManager] Type "Boyd Hermann" into "Username:". @17-05-2024 15:31:32.0532 PM
+[ReportManager] Text cleared Using Native Clear @17-05-2024 15:31:32.0667 PM
+[ReportManager] Type "i2xkrz79hidr5ce" into "Password:". @17-05-2024 15:31:32.0731 PM
+[ReportManager] Scenario Step: And I submit the sign up form @17-05-2024 15:31:32.0732 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-05-2024 15:31:32.0928 PM
+[ReportManager] Click "Sign up". @17-05-2024 15:31:32.0962 PM
+[ReportManager] Scenario Step: Then I should see the message "Sign up successful." @17-05-2024 15:31:32.0962 PM
+[ReportManager] Scenario Hook: AFTER @17-05-2024 15:31:33.0953 PM
+[ReportManager] Successfully Closed Driver. @17-05-2024 15:31:34.0161 PM
