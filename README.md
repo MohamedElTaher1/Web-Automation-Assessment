@@ -51,7 +51,7 @@
 * Click on Purchase button in place order Form
 * Validate that 'Please fill out Name and Creditcard.' Alert is displayed
 
-  ## Tools Used
+  ## Used Tools
   * Java 
   * Shaft_Engine
   * Selenium
