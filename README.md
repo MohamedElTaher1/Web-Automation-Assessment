@@ -61,7 +61,7 @@
 
   # APIs-Automation-Assessment
   ## Before test Given the BaseUrl.
-  ### First scenario :
+  ### First scenario : GenerateToken
   #### Given :
   * Content type(Json)
   * Body
@@ -71,11 +71,13 @@
   * Assert That the response ( StatusCode=200, Body contains"Token", Body not empty)
   * log().all() to print the response and the request details for visualization.
  
-  ### Second scenario :
+  ### Second scenario : BookingAPI
    * Create string variable (booking Data)
   #### Given :
   * Content type(Json)
   * Body(booking Data)
+  #### When :
+  * Type of request(Post)  
   #### Then :
   * Assert That the response( StatusCode=200, Body contains the string(booking Data))
   * log().all() to print the response and the request details for visualization.
@@ -86,6 +88,15 @@
   #### Then :
   * Assert That the response( StatusCode=200, Body size greater than 0)
   * log().all() to print the response and the request details for visualization.
+
+  ## Used Tools
+
+  * Java
+  * RestAssured
+  * TestNG
+  
+  
+    
 
   
 
