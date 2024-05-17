@@ -6,12 +6,12 @@
 * Submit the sign up form
 * Should see the message "Sign up successful."
 
-### Negative Scenario : LogIn With Invalid UserName
+### Negative Scenario (Bonus) : LogIn With Invalid UserName
 * Enter invalid username and valid password
 * Click on the Login button
 * Should see an error message "User does not exist."
 
-### Negative Scenario : LogIn With Invalid Password
+### Negative Scenario (Bonus) : LogIn With Invalid Password
 * Enter valid user name enter invalid password
 * Click on  Login button
 * Should see  error message "Wrong password."
@@ -37,7 +37,7 @@
 * Click on Purchase button in place order Form
 * Validate that 'Thank you for your purchase!' is displayed
 
-### Negative Scenario : Verify That an Alert message Please fill out Name and Creditcard should appear
+### Negative Scenario (Bonus) : Verify That an Alert message Please fill out Name and Creditcard should appear
 * Click on Login button in Header
 * Fill in username  and password  in Login Form
 * Validate that account is opened Successfully
@@ -51,9 +51,46 @@
 * Click on Purchase button in place order Form
 * Validate that 'Please fill out Name and Creditcard.' Alert is displayed
 
+
   ## Used Tools
   * Java 
   * Shaft_Engine
   * Selenium
   * Cucumber(BDD)
+
+
+  # APIs-Automation-Assessment
+  ## Before test Given the BaseUrl.
+  ### First scenario :
+  #### Given :
+  * Content type(Json)
+  * Body
+  #### When :
+  * Type of request(Post)
+  #### Then :
+  * Assert That the response ( StatusCode=200, Body contains"Token", Body not empty)
+  * log().all() to print the response and the request details for visualization.
+ 
+  ### Second scenario :
+   * Create string variable (booking Data)
+  #### Given :
+  * Content type(Json)
+  * Body(booking Data)
+  #### Then :
+  * Assert That the response( StatusCode=200, Body contains the string(booking Data))
+  * log().all() to print the response and the request details for visualization.
+
+  ### Third scenario (Bonus) :
+  #### When :
+  * Type of request (get)
+  #### Then :
+  * Assert That the response( StatusCode=200, Body size greater than 0)
+  * log().all() to print the response and the request details for visualization.
+
   
+
+    
+
+  
+
+    
